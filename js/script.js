@@ -1,29 +1,24 @@
-// Copyright (c) 2022 Evgeny-Vovk All rights reserved
-//
-// Created by: Evgeny.Vovk
-// Created on: April 2022
+// Created by: Evgeny
+// Created on: mar 2022
 // This file contains the JS functions for index.html
 
-'use strict'
-/**
- * Check servie worker.
- */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit6-01-HTML-Web-App/sw.js", {
-    scope: "/ICS2O-Unit6-01-HTML-Web-App/",
+  navigator.serviceWorker.register("/ICS2O-Unit6-01-HTML/sw.js", {
+    scope: "/ICS2O-Unit6-01-HTML/",
   })
 }
 
 /**
- * This function Converts Fehrenheit to Celsius.
+ *This function calculates celsius out of fahrenheit.
  */
 function calculate() {
   // input
-  const fahrenheit = parseInt(document.getElementById('fahrenheit').value)
+  const fahrenheit = parseInt(document.getElementById("fahrenheit").value)
 
   // process
-  const celsius = (fahrenheit - 32) * 5/9 
+  const celsius = ((fahrenheit - 32) * 5) / 9
 
   // output
-  document.getElementById('area').innerHTML = 'The Celsius temperature is: ' +  celsius.toFixed(2) + ' °C'
+  document.getElementById("celsius").innerHTML =
+    "<p>Answer : " + celsius.toFixed(2) + " °C.</p> "
 }

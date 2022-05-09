@@ -1,17 +1,21 @@
-/* Created by: Evgeny Vovk
-* Created on: April 2022
-* This file contains the CSS for index.html
-*/
+.margin-left {
+  margin-left: 1em;
+}
 
-.mdl-layout__content {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
+.margin-top {
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 250%;
+  margin-left: 40px;
+}
+
+h2 {
+  font-size: 200%;
+  margin-left: 30px;
 }
 
 p {
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
-  padding-top: 5pt;
+  font-size: 150%;
 }
