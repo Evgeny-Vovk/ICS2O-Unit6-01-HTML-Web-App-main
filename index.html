@@ -25,48 +25,29 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">My first PWA (Converting Fahrenheit to Celsius)</span>
+          <span class="mdl-layout-title">Temperature Calculator Website.</span>
         </div>
       </header>
-      <main class="mdl-layout__content">
-        <table>
-          <tr>
-            <th>
-              <img src="./images/download_1_.svg" alt="triangle" width="75%" height="auto" />
-            </th>
-            <th>
-              <h2>Formula</h2>
-              <h3>(°F − 32) × 5/9 = °C</h3>
-            </th>
-          </tr>
-        </table>
-        <!-- Simple Textfield -->
+      <main class="mdl-layout__content margin-left">
+        <h1>The formula is:</h1>
+        <h2>(°F − 32) × 5/9 = °C</h2>
+        <p>Fahrenheit: </p>
+        <!-- Numberic Textfield -->
         <form action="#">
-          <p>Fahrenheit</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="fahrenheit"
-            />
-            <label class="mdl-textfield__label" for="fahrenheit">°F...</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="fahrenheit"/>
+              <label class="mdl-textfield__label">Fahrenheit ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Raised button with ripple -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
-        >
-          Calculate 
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="calculate()">
+          Calculate
         </button>
-        <br />
-        <p>
-          <div id="answers">
-            <div id="area"></div>
-          </div>
-        </p>
+        <br>
+        <div id="answers">
+          <div id="celsius" class="margin-top"></div>
+        </div>
       </main>
     </div>
   </body>
