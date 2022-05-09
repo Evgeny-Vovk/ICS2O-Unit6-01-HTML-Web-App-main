@@ -1,6 +1,6 @@
-// Copyright (c) 2022 Emmanuel-Fofeyin All rights reserved
+// Copyright (c) 2022 Evgeny-Vovk All rights reserved
 //
-// Created by: Emmanuel.Fofeyin
+// Created by: Evgeny.Vovk
 // Created on: April 2022
 // This file contains the JS functions for index.html
 
