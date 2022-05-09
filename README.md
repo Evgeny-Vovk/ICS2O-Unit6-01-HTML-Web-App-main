@@ -5,4 +5,3 @@
 [![Run on Repl.it](https://repl.it/badge/github/Evgeny-Vovk/ICS2O-Unit6-01-HTML-Web-App)](https://repl.it/github/Evgeny-Vovk/ICS2O-Unit6-01-HTML-Web-App)
 
 This site can be found at: [https://Evgeny-Vovk.github.io/ICS2O-Unit6-01-HTML-Web-App](https://Evgeny-Vovk.github.io/ICS2O-Unit6-01-HTML-Web-App)
-
